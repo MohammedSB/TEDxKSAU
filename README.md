@@ -19,7 +19,7 @@ After installing all the requirements, you can run the server from inside that f
 (2) You can change the TEDx logo using the *static\images\logo* path. A TEDx logo generator is provided [here](https://landing-pages.ted.com/tedx-logo-generator/index.html) to help you design your unique TEDx logo.
 
 (3) The website has a fully functional registration system, where attendees can register for your TEDx event using their email and other demographic information. A confirmation email is sent to every registrant using the email tedxopensource@gmail.com. You can change the sender email from settings.py.
-See [this] for reference(https://docs.djangoproject.com/en/4.2/topics/email/).
+See [this](https://docs.djangoproject.com/en/4.2/topics/email/) for reference.
 
 (4) The number of seats in the event is decided by the ```SEAT_COUNT``` variable in apps.py, which can be changed to match your specific event. However, keep in mind that the database will only create new seats if you first run ```python manage.py migrate```. 
 
