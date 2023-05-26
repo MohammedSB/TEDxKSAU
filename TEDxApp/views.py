@@ -108,8 +108,8 @@ def previous_versions(request):
 def about(request):
     return render(request, 'about.html')
 
-def sponsers(request):
-    return render(request, 'sponsers.html')
+def sponsors(request):
+    return render(request, 'sponsors.html')
 
 
 

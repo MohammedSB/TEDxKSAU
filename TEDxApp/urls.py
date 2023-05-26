@@ -10,6 +10,6 @@ urlpatterns = [
     path('team', views.team, name="team"),
     path('previous_versions', views.previous_versions, name="previous_versions"),
     path('about', views.about, name="about"),
-    path('sponsers', views.sponsers, name="sponsers"),
+    path('sponsors', views.sponsors, name="sponsors"),
 
 ]
