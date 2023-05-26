@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+        <!-- main css -->
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css\index.css' %}">
+        <link rel="stylesheet" href="{% static 'css\global.css' %}">
+        <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
+
+        <title> TEDxOpenSource </title>
+
+    </head>
+    <body>
+        <!-- Header -->
+      {% include "components/header.html" %}
+
+      <div class="home-container">
+
+      </div>
+        <div class="general-description box">
+          <div class="general-description-text box">
+            <p>
+              This is an opensource website for TEDx events. You can use this website for your own TEDx events.
+            </p>
+          </div>
+        </div>
+
+    </div>
+
+    {% include "components/footer.html" %}
+   
+    </body> 
+</html>

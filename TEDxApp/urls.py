@@ -1,0 +1,15 @@
+from django.contrib import admin
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.home, name="home"),
+    path('activiate/<uidb64>/<token>', views.activate, name='activate'),
+    path('register', views.register, name="register"),
+    path('team', views.team, name="team"),
+    path('previous_versions', views.previous_versions, name="previous_versions"),
+    path('about', views.about, name="about"),
+    path('sponsers', views.sponsers, name="sponsers"),
+
+]

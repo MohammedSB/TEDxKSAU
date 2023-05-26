@@ -1,0 +1,7 @@
+How to reset seat index (order)?
+answer:
+UPDATE sqlite_sequence SET seq = 0 WHERE sqlite_sequence.name = "TEDxApp_seat";
+
+How to populate all seats in database?
+answer:
+python manage.py migrate
